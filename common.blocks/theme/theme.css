@@ -1,0 +1,97 @@
+/* page theme theme_color_project-default theme_size_default theme_space_default theme_gap_small */
+
+* {
+  box-sizing: border-box;
+}
+
+.theme {}
+
+/* Color modifiers */
+
+.theme_color_project-default {
+  --bg-color-default: #fff;
+  --bg-color-accent: #ffcc00;
+  --border-color: #000;
+
+  --text-color-primary: #000;
+  --text-color-secondary: rgba(0, 0, 0, 0.6);
+  --text-color-additional: rgba(0, 0, 0, 0.3);
+  --text-color-link: #0077ff;
+}
+
+.theme_color_project-brand {
+  --bg-color-default: #0077ff;
+  --bg-color-accent: #fff;
+  --border-color: #fff;
+
+  --text-color-primary: #fff;
+  --text-color-secondary: rgba(255, 255, 255, 0.6);
+  --text-color-additional: rgba(255, 255, 255, 0.3);
+  --text-color-link: #fff;
+}
+
+.theme_color_project-inverse {
+  --bg-color-default: #000;
+  --bg-color-accent: #fff;
+  --border-color: #fff;
+
+  --text-color-primary: #fff;
+  --text-color-secondary: rgba(255, 255, 255, 0.6);
+  --text-color-additional: rgba(255, 255, 255, 0.3);
+  --text-color-link: #0077ff;
+}
+
+.theme_color_project-warning {
+  --bg-color-default: #ff3333;
+  --bg-color-accent: #fff;
+  --border-color: #ff3333;
+
+  --text-color-primary: #fff;
+  --text-color-secondary: rgba(255, 255, 255, 0.6);
+  --text-color-additional: rgba(255, 255, 255, 0.3);
+  --text-color-link: #fff;
+}
+
+/* Size modifiers */
+
+.theme_size_default {
+  --font-size-s: 8px;
+  --font-size-m: 10px;
+  --font-size-l: 11px;
+  --font-size-xl: 13px;
+  --font-size-xxl: 16px;
+
+  --line-height-s: 21px;
+  --line-height-m: 25px;
+  --line-height-l: 28px;
+  --line-height-xl: 34px;
+  --line-height-xxl: 38px;
+}
+
+/* Space modifiers */
+
+.theme_space_default {
+  --space-xxxs: 3px;
+  --space-xxs: 6px;
+  --space-xs: 9px;
+  --space-s: 15px;
+  --space-m: 18px;
+  --space-l: 24px;
+  --space-xl: 27px;
+  --space-xxl: 36px;
+  --space-xxxl: 45px;
+  --space-xxxxl: 51px;
+  --space-xxxxxl: 72px;
+}
+
+/* Gap modifiers */
+
+.theme_gap_small {
+  --gap: var(--space-xl);
+}
+
+@media only screen and (min-device-width: 480px){
+  .theme_gap_small {
+    --gap: var(--space-s);
+  }
+}
