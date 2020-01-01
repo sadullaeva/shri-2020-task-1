@@ -17,6 +17,8 @@
   --text-color-secondary: rgba(0, 0, 0, 0.6);
   --text-color-additional: rgba(0, 0, 0, 0.3);
   --text-color-link: #0077ff;
+
+  --image: url(/assets/images/image-placeholder-primary.svg);
 }
 
 .theme_color_project-brand {
@@ -28,6 +30,8 @@
   --text-color-secondary: rgba(255, 255, 255, 0.6);
   --text-color-additional: rgba(255, 255, 255, 0.3);
   --text-color-link: #fff;
+
+  --image: url(/assets/images/image-placeholder-inverse.svg);
 }
 
 .theme_color_project-inverse {
@@ -39,6 +43,8 @@
   --text-color-secondary: rgba(255, 255, 255, 0.6);
   --text-color-additional: rgba(255, 255, 255, 0.3);
   --text-color-link: #0077ff;
+
+  --image: url(/assets/images/image-placeholder-inverse.svg);
 }
 
 .theme_color_project-warning {

@@ -8,6 +8,7 @@ const app = express();
 const templates = bemhtml.compile();
 
 app.use('/static', express.static(`${__dirname}/build`));
+app.use('/assets', express.static('../assets'));
 
 app.get('/index|product', (req, res) => {
     const page = req.path.replace('/', '');
