@@ -100,18 +100,22 @@
   margin: 15px 0 21px;
 }
 
-.text_view_primary {
+.text_view_primary .text__word {
   background-color: var(--text-color-primary);
 }
 
-.text_view_secondary {
+.text_view_secondary .text__word {
   background-color: var(--text-color-secondary);
 }
 
-.text_view_ghost {
+.text_view_ghost .text__word {
   background-color: var(--text-color-additional);
 }
 
-.text_view_link {
+.text_view_link .text__word {
   background-color: var(--text-color-link);
+}
+
+.text__word {
+  display: inline-block;
 }
