@@ -8,7 +8,7 @@ function css() {
 }
 
 function js() {
-  return src(['../**/*.js', '!node_modules/**', '!build/**'], { sourcemaps: true })
+  return src(['../**/*.js', '!node_modules/**', '!build/**', '!gulpfile.js', '!index.js'], { sourcemaps: true })
     .pipe(concat('script.js'))
     .pipe(dest('build'), { sourcemaps: true })
 }
