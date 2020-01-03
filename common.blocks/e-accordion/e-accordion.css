@@ -1,0 +1,7 @@
+.e-accordion {}
+
+.list__item.e-accordion__short {} /* TODO: think about this mix */
+
+.list__item.e-accordion__more {
+  display: none;
+}
