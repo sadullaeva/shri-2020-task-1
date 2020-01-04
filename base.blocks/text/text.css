@@ -66,32 +66,32 @@
 
 .text_size_s .text__word {
   height: var(--font-size-s);
-  margin-top: calc((var(--line-height-s) - var(--font-size-s)) / 3);
-  margin-bottom: calc((var(--line-height-s) - var(--font-size-s)) * 2 / 3);
+  margin-top: calc((var(--line-height-s) - var(--font-size-s)) * 0.64);
+  margin-bottom: calc((var(--line-height-s) - var(--font-size-s)) * 0.36);
 }
 
 .text_size_m .text__word {
   height: var(--font-size-m);
-  margin-top: calc((var(--line-height-m) - var(--font-size-m)) / 3);
-  margin-bottom: calc((var(--line-height-m) - var(--font-size-m)) * 2 / 3);
+  margin-top: calc((var(--line-height-m) - var(--font-size-m)) * 0.5);
+  margin-bottom: calc((var(--line-height-m) - var(--font-size-m)) * 0.5);
 }
 
 .text_size_l .text__word {
   height: var(--font-size-l);
-  margin-top: calc((var(--line-height-l) - var(--font-size-l)) / 3);
-  margin-bottom: calc((var(--line-height-l) - var(--font-size-l)) * 2 / 3);
+  margin-top: calc((var(--line-height-l) - var(--font-size-l)) * 0.5);
+  margin-bottom: calc((var(--line-height-l) - var(--font-size-l)) * 0.5);
 }
 
 .text_size_xl .text__word {
   height: var(--font-size-xl);
-  margin-top: calc((var(--line-height-xl) - var(--font-size-xl)) / 3);
-  margin-bottom: calc((var(--line-height-xl) - var(--font-size-xl)) * 2 / 3);
+  margin-top: calc((var(--line-height-xl) - var(--font-size-xl)) * 0.36);
+  margin-bottom: calc((var(--line-height-xl) - var(--font-size-xl)) * 0.64);
 }
 
 .text_size_xxl .text__word {
   height: var(--font-size-xxl);
-  margin-top: calc((var(--line-height-xxl) - var(--font-size-xxl)) / 3);
-  margin-bottom: calc((var(--line-height-xxl) - var(--font-size-xxl)) * 2 / 3);
+  margin-top: calc((var(--line-height-xxl) - var(--font-size-xxl)) * 0.36);
+  margin-bottom: calc((var(--line-height-xxl) - var(--font-size-xxl)) * 0.64);
 
 }
 
