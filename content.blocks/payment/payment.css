@@ -1,0 +1,13 @@
+@import "/base.blocks/form/form.css";
+@import "/base.blocks/text/text.css";
+@import "/base.blocks/button/button.css";
+
+.payment {}
+
+.payment__content {
+  flex-direction: column;
+}
+
+.payment__content .form__control {
+  flex-grow: 2;
+}
