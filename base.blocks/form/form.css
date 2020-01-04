@@ -64,6 +64,10 @@
   margin-bottom: var(--space-xxxxl);
 }
 
+.form__item:last-child {
+  margin-bottom: 0;
+}
+
 .form__item_space-h_xxxs {
   padding-left: var(--space-xxxs);
   padding-right: var(--space-xxxs);
