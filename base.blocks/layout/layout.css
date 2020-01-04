@@ -1,6 +1,8 @@
 .layout {}
 
-.layout__container {}
+.layout__container {
+  background-color: var(--bg-color-default);
+}
 
 .layout__container_align_center {
   margin: auto;
