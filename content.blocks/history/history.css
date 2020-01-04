@@ -1,0 +1,34 @@
+@import "/base.blocks/list/list.css";
+@import "/base.blocks/text/text.css";
+@import "/base.blocks/brand-logo/brand-logo.css";
+
+.history {}
+
+.history__transaction {
+  flex-direction: column;
+}
+
+.history__transaction:last-child {
+  border-bottom: 0;
+}
+
+.history__show.list__item {
+  justify-content: space-between;
+  margin-top: 0;
+}
+
+.history__details {
+  display: flex;
+}
+
+.history__time {
+  align-self: center;
+}
+
+.history__description {
+  flex-direction: column;
+}
+
+.history__actions.list__item {
+  margin-bottom: 0;
+}
