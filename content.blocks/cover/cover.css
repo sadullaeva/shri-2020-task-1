@@ -1,0 +1,19 @@
+@import "/base.blocks/card/card.css";
+@import "/base.blocks/text/text.css";
+
+.cover {
+  min-height: 472px;
+}
+
+.cover__info {
+  flex-direction: column;
+}
+
+.cover__preview {
+  width: 100%;
+  margin-bottom: var(--space-l);
+}
+
+.cover__preview .image {
+  height: 180px;
+}
