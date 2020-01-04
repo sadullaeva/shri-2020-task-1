@@ -1,0 +1,26 @@
+@import "/base.blocks/card/card.css";
+@import "/base.blocks/text/text.css";
+@import "/base.blocks/avatar/avatar.css";
+@import "/base.blocks/brand-logo/brand-logo.css";
+
+.event {
+  min-height: 400px;
+}
+
+.event__content {
+  flex-direction: column;
+}
+
+.event__preview {
+  display: flex;
+  margin-bottom: var(--space-xxl);
+}
+
+.event__preview .avatar {
+  background-color: var(--bg-color-accent);
+  margin-right: var(--space-xs);
+}
+
+.event__title {
+  margin-bottom: var(--space-s);
+}
