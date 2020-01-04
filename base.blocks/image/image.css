@@ -2,5 +2,5 @@
   width: 100%;
   border: 3px solid var(--border-color);
   background: var(--image) center no-repeat;
-  background-size: contain;
+  background-size: 80px 64px;
 }
