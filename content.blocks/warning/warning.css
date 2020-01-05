@@ -1,8 +1,3 @@
-@import "/base.blocks/informer/informer.css";
-@import "/base.blocks/text/text.css";
-@import "/base.blocks/placeholder/placeholder.css";
-@import "/base.blocks/button/button.css";
-
 .warning {
   min-height: 335px;
 }

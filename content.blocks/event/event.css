@@ -1,8 +1,3 @@
-@import "/base.blocks/card/card.css";
-@import "/base.blocks/text/text.css";
-@import "/base.blocks/avatar/avatar.css";
-@import "/base.blocks/brand-logo/brand-logo.css";
-
 .event {
   min-height: 400px;
 }

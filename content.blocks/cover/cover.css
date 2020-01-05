@@ -1,6 +1,3 @@
-@import "/base.blocks/card/card.css";
-@import "/base.blocks/text/text.css";
-
 .cover {
   min-height: 472px;
 }

@@ -1,7 +1,3 @@
-@import "/base.blocks/list/list.css";
-@import "/base.blocks/text/text.css";
-@import "/base.blocks/brand-logo/brand-logo.css";
-
 .history {}
 
 .history__transaction {

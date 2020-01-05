@@ -1,5 +1,3 @@
-@import "/base.blocks/text/text.css";
-
 .footer {
   padding: var(--space-xxxl) var(--gap);
 }
