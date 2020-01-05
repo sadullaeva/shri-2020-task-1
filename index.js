@@ -8,12 +8,12 @@ const app = express();
 const templates = bemhtml.compile();
 
 app.use('/static', express.static(`${__dirname}/build`));
-app.use('/assets', express.static('../assets'));
+app.use('/assets', express.static(`${__dirname}/assets`));
 
 app.get('/index|product', (req, res) => {
     const page = req.path.replace('/', '');
 
-    const jsonPath = path.resolve(__dirname, 'pages', `${page}.json`);
+    const jsonPath = path.resolve(__dirname, 'assets/pages', `${page}.json`);
     const bemjson = JSON.parse(fs.readFileSync(jsonPath, {encoding: 'utf-8'}));
 
     const contentHTML = templates.apply(bemjson);
