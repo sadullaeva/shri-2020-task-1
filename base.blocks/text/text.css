@@ -72,20 +72,20 @@
 
 .text_size_m .text__word {
   height: var(--font-size-m);
-  margin-top: calc((var(--line-height-m) - var(--font-size-m)) * 0.5);
-  margin-bottom: calc((var(--line-height-m) - var(--font-size-m)) * 0.5);
+  margin-top: calc((var(--line-height-m) - var(--font-size-m)) * 0.54);
+  margin-bottom: calc((var(--line-height-m) - var(--font-size-m)) * 0.46);
 }
 
 .text_size_l .text__word {
   height: var(--font-size-l);
-  margin-top: calc((var(--line-height-l) - var(--font-size-l)) * 0.5);
-  margin-bottom: calc((var(--line-height-l) - var(--font-size-l)) * 0.5);
+  margin-top: calc((var(--line-height-l) - var(--font-size-l)) * 0.46);
+  margin-bottom: calc((var(--line-height-l) - var(--font-size-l)) * 0.54);
 }
 
 .text_size_xl .text__word {
   height: var(--font-size-xl);
-  margin-top: calc((var(--line-height-xl) - var(--font-size-xl)) * 0.36);
-  margin-bottom: calc((var(--line-height-xl) - var(--font-size-xl)) * 0.64);
+  margin-top: calc((var(--line-height-xl) - var(--font-size-xl)) * 0.44);
+  margin-bottom: calc((var(--line-height-xl) - var(--font-size-xl)) * 0.56);
 }
 
 .text_size_xxl .text__word {
