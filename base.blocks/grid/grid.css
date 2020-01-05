@@ -1,4 +1,8 @@
 .grid {
+  --full-gap: var(--gap);
+  --half-gap: calc(var(--gap) / 2);
+  --two-thirds-gap: calc(var(--gap) * 2 / 3);
+
   display: grid;
 }
 
@@ -11,23 +15,47 @@
 }
 
 .grid_col-gap_two-thirds {
-  grid-column-gap: calc(var(--gap) * 2 / 3);
+  grid-column-gap: var(--two-thirds-gap);
 }
 
 .grid_col-gap_half {
-  grid-column-gap: calc(var(--gap) / 2);
+  grid-column-gap: var(--half-gap);
 }
 
 .grid_col-gap_full {
-  grid-column-gap: var(--gap);
+  grid-column-gap: var(--full-gap);
+}
+
+.grid_m-columns_10.grid_col-gap_two-thirds {
+  grid-template-columns: repeat(auto-fit, minmax(calc((var(--screen-m) - var(--two-thirds-gap) * 9) / 10), 1fr));
+}
+
+.grid_m-columns_10.grid_col-gap_half {
+  grid-template-columns: repeat(auto-fit, minmax(calc((var(--screen-m) - var(--half-gap) * 9) / 10), 1fr));
+}
+
+.grid_m-columns_10.grid_col-gap_full {
+  grid-template-columns: repeat(auto-fit, minmax(calc((var(--screen-m) - var(--full-gap) * 9) / 10), 1fr));
+}
+
+.grid_m-columns_12.grid_col-gap_two-thirds {
+  grid-template-columns: repeat(auto-fit, minmax(calc((var(--screen-m) - var(--two-thirds-gap) * 11) / 12), 1fr));
+}
+
+.grid_m-columns_12.grid_col-gap_half {
+  grid-template-columns: repeat(auto-fit, minmax(calc((var(--screen-m) - var(--half-gap) * 11) / 12), 1fr));
+}
+
+.grid_m-columns_12.grid_col-gap_full {
+  grid-template-columns: repeat(auto-fit, minmax(calc((var(--screen-m) - var(--full-gap) * 11) / 12), 1fr));
 }
 
 .grid_row-gap_half {
-  grid-row-gap: calc(var(--gap) / 2);
+  grid-row-gap: var(--half-gap);
 }
 
 .grid_row-gap_full {
-  grid-row-gap: var(--gap);
+  grid-row-gap: var(--full-gap);
 }
 
 .grid__fraction {}
