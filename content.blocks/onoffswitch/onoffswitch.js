@@ -16,4 +16,6 @@ function toggleTheme(evt) {
   }
 }
 
-document.body.addEventListener('click', toggleTheme);
+document.addEventListener('DOMContentLoaded', function() {
+  document.body.addEventListener('click', toggleTheme);
+});

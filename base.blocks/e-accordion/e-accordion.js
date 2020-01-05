@@ -13,4 +13,6 @@ function toggleAccordion(evt) {
   }
 }
 
-document.body.addEventListener('click', toggleAccordion);
+document.addEventListener('DOMContentLoaded', function() {
+  document.body.addEventListener('click', toggleAccordion);
+});
