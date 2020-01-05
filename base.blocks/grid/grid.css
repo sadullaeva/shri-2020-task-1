@@ -56,7 +56,7 @@
   grid-column: span 8;
 }
 
-@media only screen and (max-device-width: 1024px){
+@media screen and (max-width: 1024px){
   .grid_m-columns_10,
   .grid_m-columns_12 {
     grid-template-columns: 1fr;

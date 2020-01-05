@@ -100,7 +100,7 @@ body {
   --gap: var(--space-xl);
 }
 
-@media only screen and (max-device-width: 1024px){
+@media screen and (max-width: 1024px){
   .theme_gap_small {
     --gap: var(--space-s);
   }
