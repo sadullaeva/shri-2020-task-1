@@ -1,6 +1,13 @@
 .image {
   width: 100%;
   border: 3px solid var(--border-color);
-  background: var(--image) center no-repeat;
-  background-size: 80px 64px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.image::before {
+  content: var(--image);
+  width: 80px;
+  height: 64px;
 }
